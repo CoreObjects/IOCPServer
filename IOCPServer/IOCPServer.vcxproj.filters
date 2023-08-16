@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{ef645cee-6056-45b5-9ff2-95c6e68f3cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOCPServer">
+      <UniqueIdentifier>{2056cbea-7127-480b-ad48-7758e5c58a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{39f5b878-88cc-4c88-b24e-687de3075a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CRC">
+      <UniqueIdentifier>{58fcab3a-cf3d-4ba6-8480-517267f8ec0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Context">
+      <UniqueIdentifier>{be81746c-8861-4dbd-bf4b-f57b5a969f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Worker">
+      <UniqueIdentifier>{ce5033d1-846b-4441-bbdf-ae824c632d31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPBase.cpp">
+      <Filter>IOCPServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientContext.cpp">
+      <Filter>Context</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ContextPool.cpp">
+      <Filter>Context</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPBase.h">
+      <Filter>IOCPServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.h">
+      <Filter>CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientContext.h">
+      <Filter>Context</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextPool.h">
+      <Filter>Context</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerWorker.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h">
+      <Filter>IOCPServer</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
